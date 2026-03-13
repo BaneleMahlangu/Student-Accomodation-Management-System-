@@ -5,43 +5,93 @@
 [![Code License](https://img.shields.io/badge/Code%20License-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20%40iammelvink-blue.svg?style=social&logo=linkedin)](https://www.linkedin.com/in/iammelvink)
 
-## Overview
+## Overview : Student Accomodation Management System
+This repository contains the codebase and documentation for the **Student Accommodation Management System (SAMS)**.  
+SAMS is a web-based platform designed to streamline booking, allocation, payment tracking, and maintenance management for student accommodation at Sol Plaatje University.
 
-This is the codebase produced for the Project course
+**Methodologies/Project Management:** Agile  
+**Coding Practices:** OOP (Object-Oriented Programming), MVC (Model-View-Controller)  
+**Programming Languages/Frameworks:** HTML, CSS, JavaScript, Python (adjust if needed)
 
-Written in **Placeholder**
 
-1. Methodologies/Project Management:
 
-   - Agile
+## Problem Statement
+The current accommodation management process faces several challenges:
 
-2. Coding Practices:
+* Manual room allocation causing duplicate bookings and delayed placements  
+* Error-prone payment tracking due to lack of centralized records  
+* Fragmented maintenance reporting through emails or messaging platforms  
+* Poor communication and reporting increasing administrative workload  
+* Accommodation insecurity caused by allocation errors
 
-   - OOP (Object Oriented Programming)
-   - MVC (Model View Controller)
 
-3. Programming Languages/Frameworks:
 
-   - Placeholder
+## Proposed Solution
+SAMS provides a **centralized platform** that automates accommodation management:  
 
-## Instructions
+* Students can search and book rooms  
+* Landlords can manage property listings  
+* Administrators can monitor operations, generate reports, and track payments  
 
-1. Make sure you have these installed
+The system improves transparency, reduces errors, and speeds up accommodation allocation and management processes.
 
-2. Clone `ONLY THE LATEST COMMIT` of this repository into your local machine using the terminal (mac) or
-   [Gitbash (PC)](https://git-scm.com/download/win 'Gitbash (PC)') `to save storage space`
 
-   ```sh
-   git clone https://github.com/iammelvink/NPRT63.git --depth=1
-   ```
+
+## Key System Features
+
+### User Management
+* Student registration and login  
+* Landlord profile verification  
+* Role-based access control  
+
+### Property and Room Management
+* Add, update, remove accommodation listings  
+* Real-time room availability tracking  
+
+### Booking and Allocation
+* Students submit booking requests  
+* Automatic updates of room availability  
+
+### Payments and Documentation
+* Record and track rental payments  
+* Notifications for upcoming or overdue payments  
+
+### Maintenance and Communication
+* Online maintenance requests  
+* Status tracking and internal messaging  
+
+### Reporting and Monitoring
+* Occupancy, payment, and system activity reports  
+
+
+
+## System Architecture
+The system follows a **three-tier architecture**:
+
+1. **Presentation Layer** – User interface for students, landlords, and administrators  
+2. **Application Layer** – Handles business logic for booking, payments, and communication  
+3. **Data Layer** – Centralized relational database for all system information
+
+
+
+## Feasibility
+* **Technical Feasibility:** Uses widely available web technologies  
+* **Operational Feasibility:** Aligns with existing university accommodation roles  
+* **Economic Feasibility:** Reduces administrative workload and errors  
+* **Schedule Feasibility:** Modular design allows phased development
+
+
 
 ## Author(s)
 
 "Group members and lecturer"
 
 [Melvin Kisten](https://github.com/iammelvink 'Melvin Kisten\'s GitHub page')
+ Ayanda Princess Mabasa – GitHub: ayand-aaaa  
+- Baanetse Masopha – GitHub: masophabaanetse  
+- Baby Thabiso Njabulo Manqele – GitHub: Manqele-01B  
+- Banele Clementine – GitHub: [BaneleMahlangu](https://github.com/BaneleMahlangu)  
 
-GitHub: @"Group members"
 
 LinkedIn: [Melvin Kisten](https://www.linkedin.com/in/iammelvink 'Melvin Kisten\'s LinkedIn page')
 
@@ -49,7 +99,3 @@ LinkedIn: [Melvin Kisten](https://www.linkedin.com/in/iammelvink 'Melvin Kisten\
 
 To my lecturer [Melvin Kisten](https://www.linkedin.com/in/iammelvink 'Melvin Kisten\'s LinkedIn page') for their guidance
 
-## More Stuff
-
-Check out some other stuff on
-[Melvin Kisten](https://github.com/iammelvink 'Melvin Kisten\'s GitHub page')
